@@ -1,0 +1,18 @@
+.app {
+    width: 250px;
+    height: 420px;
+    background-color: #282c34;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    padding: 10px;
+}
+
+.get-started {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 0 0;
+}
+
+a {
+    color: #61dafb;
+}
