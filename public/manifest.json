@@ -1,11 +1,18 @@
 {
   "name": "React Chrome Extension",
-  "description": "A starter for creating Chrome Extensions with React",
+  "description": "A starter template for creating Chrome extensions with React.js",
   "version": "1.0",
   "manifest_version": 3,
+  "permissions": [
+    "background"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
   "action": {
     "default_popup": "index.html",
-    "default_title": "Open the popup"
+    "default_title": "React Chrome Extension"
   },
   "icons": {
     "16": "logo192.png",
