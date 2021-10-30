@@ -1,5 +1,5 @@
 # React.js Chrome Extension Template
-A quick way to get started building Chrome Extensions with React.
+A quick way to get started building Chrome Extensions with React and Tailwind CSS.
 
 ## Getting started
 This project was developed and tested with `Node 14.17.0` and `yarn 1.22.15`.
@@ -17,10 +17,10 @@ yarn build
 5. In your browser, go to `chrome://extensions/` and enable developer mode.
 > Click the Chrome menu icon and select Extensions from the Tools menu. Ensure that the "Developer mode" checkbox in the top right-hand corner is checked.
 6. Click **Load unpacked**.
-7. Upload the `build/` directory within the project.
+7. Upload the `build/` directory from the project.
 
 ### Making changes
-For the most part, the extension functions like a normal React app. Make changes in the `src/App.js` file. After making a change, you need to:
+The `manifest.json` file is located in the `public/` directory. For the most part, the extension functions like a normal React app. Make changes in the `src/App.js` file. After making a change, you need to:
 
 1. Rebuild the app:
 ```shell
@@ -36,3 +36,8 @@ yarn build
 * react-dom `^17.0.2`
 * react-scripts `"4.0.3`
 * web-vitals `^1.0.`
+
+## Dev Dependencies
+* autoprefixer `9.0.0`
+* postcss `7.0.0`
+* tailwindcss `npm:@tailwindcss/postcss7-compat@^2.2.17`
